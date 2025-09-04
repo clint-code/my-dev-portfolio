@@ -60,8 +60,8 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Clinton Mutinda, a software developer with 5 years of experience in Front-end development
-      <br />. After hours, I build my own projects.
+      I'm Clinton Mutinda, a software developer with 5 years of experience in Front-end web development.
+      <br />After hours, I build my own projects.
     </>
   ),
 };
@@ -79,7 +79,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -87,9 +87,12 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I'm a front-end web developer with a passion for transforming complex challenges
+        into simple, elegant design solutions. My work spans digital interfaces built from user interface designs,
+        interactive user experiences, and the convergence of design and technology.
+        <br />
+        I've had 6 years of experience handling complex HTML and CSS alongisde JavaScript frameworks in building
+        quality web applications.
       </>
     ),
   },
@@ -98,9 +101,9 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "MFS Technologies",
+        timeframe: "May 2021 - Present",
+        role: "Front End Web Developer",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -122,9 +125,25 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Creative VMYLR",
+        timeframe: "August 2019 - May 2021",
+        role: "Front End Web Developer",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Bean Interactive",
+        timeframe: "May 2016 - October 2016",
+        role: "Graphic Designer Intern",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -141,15 +160,11 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Strathmore University - Nairobi, Kenya",
+        description: <>Bachelor of Business Information Technology</>,
       },
     ],
   },
@@ -158,9 +173,95 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Web Development skills",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Able to develop user interfaces using these core web technologies and styling frameworks .</>
+        ),
+        tags: [
+          {
+            name: "HTML5",
+            icon: "html5",
+          },
+          {
+            name: "CSS3",
+            icon: "css3",
+          },
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
+          {
+            name: "Tailwind CSS",
+            icon: "tailwindcss",
+          },
+          {
+            name: "Bootstrap",
+            icon: "bootstrap",
+          },
+          {
+            name: "Angular Material",
+            icon: "angular",
+          }
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-03.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Web Frameworks and Libraries",
+        description: (
+          <>Able to build Single Page Applications and web applications using these libraries and frameworks:</>
+        ),
+        tags: [
+          {
+            name: "Angular",
+            icon: "angular",
+          },
+          {
+            name: "Vue JS",
+            icon: "vuejs",
+          },
+          {
+            name: "React",
+            icon: "reactjs",
+          },
+          {
+            name: "Next JS",
+            icon: "nextjs",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-03.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "UI Design",
+        description: (
+          <>Designing UI prototypes:</>
         ),
         tags: [
           {
@@ -184,35 +285,35 @@ const about: About = {
           },
         ],
       },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },  
+      // {
+      //   title: "Next.js",
+      //   description: (
+      //     <>Building next gen apps with Next.js + Once UI + Supabase.</>
+      //   ),
+      //   tags: [
+      //     {
+      //       name: "JavaScript",
+      //       icon: "javascript",
+      //     },
+      //     {
+      //       name: "Next.js",
+      //       icon: "nextjs",
+      //     },
+      //     {
+      //       name: "Supabase",
+      //       icon: "supabase",
+      //     },
+      //   ],
+      //   // optional: leave the array empty if you don't want to display images
+      //   images: [
+      //     {
+      //       src: "/images/projects/project-01/cover-04.jpg",
+      //       alt: "Project image",
+      //       width: 16,
+      //       height: 9,
+      //     },
+      //   ],
+      // },
     ],
   },
 };
