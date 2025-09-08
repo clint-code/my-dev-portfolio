@@ -194,6 +194,18 @@ export default function About() {
             <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
               {about.intro.description}
             </Column>
+            // <Column as="p" fillWidth gap="m" marginBottom="xl">
+            //   {about.intro.description.map(
+            //     (description: React.ReactNode, index: number) => (
+            //       <Text 
+            //         as="p"
+            //         variant="body-default-l" 
+            //         key={index}>
+            //         {description}
+            //       </Text>
+            //     ),
+            //   )}
+            // </Column>
           )}
 
           {about.work.display && (

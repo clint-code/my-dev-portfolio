@@ -32,6 +32,11 @@ const social: Social = [
     link: "https://www.linkedin.com/in/clintonmutinda/",
   },
   {
+    name: "Behance",
+    icon: "behance",
+    link: "https://www.behance.net/kiokoclint#",
+  },
+  {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
@@ -49,10 +54,10 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
+        {/* <strong className="ml-4">My best work</strong>{" "}
+        <Line background="brand-alpha-strong" vert height="20" /> */}
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Featured Project
         </Text>
       </Row>
     ),
@@ -60,8 +65,8 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Clinton Mutinda, a software developer with 5 years of experience in Front-end web development.
-      <br />After hours, I build my own projects.
+      I'm Clinton Mutinda, a software developer with 5 years of experience in
+      Front-end web development.<br />After hours, I build my own projects.
     </>
   ),
 };
@@ -106,13 +111,17 @@ const about: About = {
         role: "Front End Web Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Developed a digital marketpalce dubbed InsureMe, within 6 months, enabling users to seamlessly purchase
+            policies from a diverse list of insurance providers and get claims.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Redesigned the company's new official website showcasing the products and solutions offered to clients. This was
+            achieved by collaborating with the back-end, front-end and UI teams, building the within 1 month and 2 weeks of testing and debugging
           </>,
+          <>
+            Developed the loan application form and alongside, the loan dashboard that keeps track of All
+            data concerning loans, customers and payments.
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -126,16 +135,17 @@ const about: About = {
       },
       {
         company: "Creative VMYLR",
-        timeframe: "August 2019 - May 2021",
+        timeframe: "November 2016 - May 2021",
         role: "Front End Web Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Spearheaded the development of fron-facing websites for major corporates in Kenya
+            including <b>Strathmore Business School (SBS), CKL Africa</b> and <b>Ramco Group</b>
+            affiliates such as <b>Office Technologies</b> and <b>Sai Office</b>.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Managing content and upddates for corporate clients using Wordpress and Drupal
+            for clients such as <b> Crown Paints, I&amp;M Bank and Total Kenya</b>
           </>,
         ],
         images: [],
@@ -146,12 +156,10 @@ const about: About = {
         role: "Graphic Designer Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Contributed to the creation of creative posters for social media posts
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Designed motion graphic social media posts in the form of GIFs.
           </>,
         ],
         images: [],
