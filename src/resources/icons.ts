@@ -15,16 +15,22 @@ import {
 } from "react-icons/hi2";
 
 import {
+  FaEarthAfrica
+} from "react-icons/fa6";
+
+import {
   PiHouseDuotone,
   PiUserCircleDuotone,
   PiGridFourDuotone,
   PiBookBookmarkDuotone,
   PiImageDuotone,
+  PiStarDuotone
 } from "react-icons/pi";
 
 import {
   SiJavascript,
   SiNextdotjs,
+  SiDocker,
   SiFigma,
   SiSupabase,
   SiHtml5,
@@ -34,7 +40,8 @@ import {
   SiBootstrap,
   SiVuedotjs,
   SiReact,
-  SiBehance
+  SiBehance,
+  SiDribbble
 } from "react-icons/si";
 
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads } from "react-icons/fa6";
@@ -43,7 +50,8 @@ export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
   arrowRight: HiArrowRight,
   email: HiEnvelope,
-  globe: HiOutlineGlobeAsiaAustralia,
+  globe: FaEarthAfrica,
+  feature: PiStarDuotone,
   person: PiUserCircleDuotone,
   grid: PiGridFourDuotone,
   book: PiBookBookmarkDuotone,
@@ -57,6 +65,7 @@ export const iconLibrary: Record<string, IconType> = {
   github: FaGithub,
   linkedin: FaLinkedin,
   behance: SiBehance,
+  dribbble: SiDribbble,
   x: FaX,
   threads: FaThreads,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
@@ -72,7 +81,8 @@ export const iconLibrary: Record<string, IconType> = {
   bootstrap: SiBootstrap,
   angular: SiAngular,
   vuejs: SiVuedotjs,
-  reactjs: SiReact
+  reactjs: SiReact,
+  docker: SiDocker
 };
 
 export type IconLibrary = typeof iconLibrary;

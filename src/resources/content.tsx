@@ -1,5 +1,5 @@
 import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
-import { Line, Logo, Row, Text } from "@once-ui-system/core";
+import { Line, Logo, Row, Text, Icon } from "@once-ui-system/core";
 
 const person: Person = {
   firstName: "Clinton",
@@ -36,6 +36,11 @@ const social: Social = [
     icon: "behance",
     link: "https://www.behance.net/kiokoclint#",
   },
+   {
+    name: "Dribbble",
+    icon: "dribbble",
+    link: "https://dribbble.com/Clint_Kioko",
+  },
   {
     name: "Email",
     icon: "email",
@@ -55,7 +60,8 @@ const home: Home = {
     title: (
       <Row gap="12" vertical="center">
         {/* <strong className="ml-4">My best work</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" /> */}
+        <Line background="brand-alpha-strong" vert height="20" />  */}
+        <Icon name="feature" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured Project
         </Text>
@@ -125,8 +131,14 @@ const about: About = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
+           {
+            src: "/images/projects/project-01/insure-me-homepage.jpg",
+            alt: "InsureMe",
+            width: 16,
+            height: 9,
+          },
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/mfs-landing-page.jpg",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -139,16 +151,29 @@ const about: About = {
         role: "Front End Web Developer",
         achievements: [
           <>
-            Spearheaded the development of fron-facing websites for major corporates in Kenya
+            Spearheaded the development of front-facing websites for major corporates in Kenya
             including <b>Strathmore Business School (SBS), CKL Africa</b> and <b>Ramco Group</b>
             affiliates such as <b>Office Technologies</b> and <b>Sai Office</b>.
           </>,
           <>
             Managing content and upddates for corporate clients using Wordpress and Drupal
-            for clients such as <b> Crown Paints, I&amp;M Bank and Total Kenya</b>
+            for clients such as <b> Crown Paints, I&amp;M Banks</b>  and <b>Total Kenya</b>
           </>,
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/office-technologies-landing-page.jpg",
+            alt: "Office Technologies Landing Page",
+            width: 16,
+            height: 10,
+          },
+            {
+            src: "/images/projects/project-01/coopers-africa-faqs.jpg",
+            alt: "CKL Africa FAQs Page",
+            width: 16,
+            height: 10,
+          },
+        ],
       },
       {
         company: "Bean Interactive",
@@ -213,18 +238,18 @@ const about: About = {
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
-          // {
-          //   src: "/images/projects/project-01/cover-02.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-          // {
-          //   src: "/images/projects/project-01/cover-03.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
+          {
+            src: "/images/projects/project-01/nerd-interpreter.jpg",
+            alt: "Nerd Interpreter Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/mfs-landing-page.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
         ],
       },
       {
@@ -252,18 +277,30 @@ const about: About = {
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
-          // {
-          //   src: "/images/projects/project-01/cover-02.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-          // {
-          //   src: "/images/projects/project-01/cover-03.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
+          {
+            src: "/images/projects/project-01/insure-me-homepage.jpg",
+            alt: "InsureMe",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/mymobi-dashboard.jpg",
+            alt: "MyMobi Dashboard",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "DevOps",
+        description: (
+          <>Building images using Docker, that are pushed to an image repository</>
+        ),
+        tags: [
+          {
+            name: "Docker",
+            icon: "docker",
+          }
         ],
       },
       {
@@ -280,14 +317,14 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/ui-music-app.jpg",
+            alt: "Music App UI Design",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/ui-404-page.jpg",
+            alt: "404 Page UI Design",
             width: 16,
             height: 9,
           },
