@@ -39,7 +39,9 @@ const protectedRoutes: ProtectedRoutesConfig = {
 import { Geist } from "next/font/google";
 import { Geist_Mono } from "next/font/google";
 
-const heading = Geist({
+import { Noto_Serif } from "next/font/google";
+
+const heading = Noto_Serif({
   variable: "--font-heading",
   subsets: ["latin"],
   display: "swap",
