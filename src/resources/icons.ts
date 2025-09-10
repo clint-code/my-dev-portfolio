@@ -14,9 +14,9 @@ import {
   HiOutlineRocketLaunch,
 } from "react-icons/hi2";
 
-import {
-  FaEarthAfrica
-} from "react-icons/fa6";
+import { FaEarthAfrica } from "react-icons/fa6";
+
+import { FaMediumM } from "react-icons/fa";
 
 import {
   PiHouseDuotone,
@@ -41,6 +41,7 @@ import {
   SiVuedotjs,
   SiReact,
   SiBehance,
+  SiAdobexd,
   SiDribbble
 } from "react-icons/si";
 
@@ -66,6 +67,7 @@ export const iconLibrary: Record<string, IconType> = {
   linkedin: FaLinkedin,
   behance: SiBehance,
   dribbble: SiDribbble,
+  medium: FaMediumM,
   x: FaX,
   threads: FaThreads,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
@@ -75,6 +77,7 @@ export const iconLibrary: Record<string, IconType> = {
   nextjs: SiNextdotjs,
   supabase: SiSupabase,
   figma: SiFigma,
+  adobexd: SiAdobexd,
   html5: SiHtml5,
   css3: SiCss3,
   tailwindcss: SiTailwindcss,

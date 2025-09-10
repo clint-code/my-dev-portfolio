@@ -36,10 +36,15 @@ const social: Social = [
     icon: "behance",
     link: "https://www.behance.net/kiokoclint#",
   },
-   {
+  {
     name: "Dribbble",
     icon: "dribbble",
     link: "https://dribbble.com/Clint_Kioko",
+  },
+  {
+    name: "Medium",
+    icon: "medium",
+    link: "https://medium.com/moviefusion",
   },
   {
     name: "Email",
@@ -131,7 +136,7 @@ const about: About = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-           {
+          {
             src: "/images/projects/project-01/insure-me-homepage.jpg",
             alt: "InsureMe",
             width: 16,
@@ -167,7 +172,7 @@ const about: About = {
             width: 16,
             height: 10,
           },
-            {
+          {
             src: "/images/projects/project-01/coopers-africa-faqs.jpg",
             alt: "CKL Africa FAQs Page",
             width: 16,
@@ -312,6 +317,10 @@ const about: About = {
           {
             name: "Figma",
             icon: "figma",
+          },
+          {
+            name: "Adobe XD",
+            icon: "adobexd",
           },
         ],
         // optional: leave the array empty if you don't want to display images
