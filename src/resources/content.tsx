@@ -132,18 +132,21 @@ const about: About = {
           <>
             Developed the loan application form and alongside, the loan dashboard that keeps track of All
             data concerning loans, customers and payments.
+          </>,
+          <>
+            Developed the MyMobi page that shows how to use the loan application product with steps on how to register, apply and FAQs.
           </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/insure-me-homepage.jpg",
+            src: "/images/projects/insure-me/insure-me-homepage.jpg",
             alt: "InsureMe",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/mfs-landing-page.jpg",
+            src: "/images/projects/mfs/mfs-landing-page.jpg",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -244,14 +247,14 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/nerd-interpreter.jpg",
+            src: "/images/projects/nerd-interpreter/nerd-interpreter.jpg",
             alt: "Nerd Interpreter Project",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/mfs-landing-page.jpg",
-            alt: "Project image",
+            src: "/images/projects/my-mobi/mymobi-landing-page.jpg",
+            alt: "MyMobi Landing Page",
             width: 16,
             height: 9,
           },
@@ -283,13 +286,13 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/insure-me-homepage.jpg",
+            src: "/images/projects/insure-me/insure-me-homepage.jpg",
             alt: "InsureMe",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/mymobi-dashboard.jpg",
+            src: "/images/projects/my-mobi/mymobi-dashboard.jpg",
             alt: "MyMobi Dashboard",
             width: 16,
             height: 9,
